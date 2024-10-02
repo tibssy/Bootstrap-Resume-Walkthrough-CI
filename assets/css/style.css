@@ -31,7 +31,7 @@ header {
 
 .logo {
     background: url("../images/rosie.png") no-repeat center center/cover;
-    min-height: 360px;
+    min-height: 300px;
     transition: all 0.5s ease-in-out;
 }
 
@@ -58,6 +58,10 @@ header {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    margin: 0;
 }
 
 #nav li {
@@ -98,4 +102,9 @@ header {
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 120px;
 }
